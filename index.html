@@ -3,96 +3,101 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS Snippet Cheatsheet</title>
-  <!-- <link rel="stylesheet" href="assets/css/reset.css" /> -->
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>My Professional Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-
-
   <header>
-    <h1 class="page-title">
-      My porfolio
-    </h1>
-    <p>
-      Hi, My name is Gavin McNutt, and this is my professional portfolio, down below is a list
-      of some of the projects that I have worked on!
-    </p>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <main>
+  <section id="home">
+    <div>
+      <h1>Welcome to My Portfolio</h1>
+      <p>Hi, I'm Gavin McNutt. I am a novice Full-Stack Web  Developer looking for learning opportunitys</p>
+      <a href="#portfolio" class="cta-btn">View My Work</a>
+    </div>
+  </section>
 
-    <section class="row justify-center">
-      <div class="card-column">
-        <figure class="card code-card">
-          <h2 class="card-header">Project Currency</h2>
-          <div>
-            <img id="card" src="assets/images/projectcurrency.png">
-          </div>
-          <div class="card-body">
-            <p>This is a stocks app that me and my team built using a news and financial API</p>
+  <section id="about">
+    <div>
+      <h2>About Me</h2>
+      <p>I am 20 years old and eager to learn a lot about computer science, artificial intelligence, and the structure of the web. I took AP Computer Science in high school and passed
+        the AP test, I took a few computer science classes at Santa Barbara City College and Pasadena City College, however I am still a novice. I also worked with Jack Sayers a Research Professor of Physics
+        at Cal-Tech, helping him refactor some mathmatica code to python. You can look at the project on my github profile via the "Arctic Code Vault Contributor" badge. I'm excited to collaborate with people also interested
+        in computer science to gain learning opportunitys and to help others learn as well.
+      </p>
+    </div>
+  </section>
 
+  <section id="portfolio">
+    <div>
+      <h2>Portfolio</h2>
+        <!-- <a href="https://gavinrn.github.io/project-currency/">
+          <img src="assets/images/projectcurrency.png" width="500" height="auto" class="imgclass"></img>
+        </a> -->
+        <div class="flex-container">
+          <div class="photo photo-large">
+            <a href="https://gavinrn.github.io/project-currency/">
+              <img src="assets/images/projectcurrency.png" class="imgclass" alt="First photo">
+            </a>
           </div>
+          <div class="photo">
+            <a href="https://gavinrn.github.io/Password-Generator/">
+              <img src="assets/images/Screenshot 2023-04-07 at 8.10.31 PM.png" class="imgclass" alt="Second photo">
+            </a>
+          </div>
+          <div class="photo">
+            <a href="https://gavinrn.github.io/HoriseonTech/">
+              <img src="assets/images/HoriseonTech Screenshot.png" class="imgclass" alt="Third photo">
+            </a>
+          </div>
+          <div class="photo"><img src="assets/images/Screenshot 2023-04-07 at 8.10.31 PM.png" alt="Fourth photo"></div>
+        </div>
 
-        </figure>
-      </div>
-      <div class="card-column">
-        <figure class="card code-card">
-          <h2 class="card-header">Too be added</h2>
-          <div class="card-body">
-            <p>Too be added</p>
-          </div>
-          Too be added
-        </figure>
-      </div>
+    </div>
+  </section>
 
-      <div class="card-column">
-        <figure class="card code-card">
-          <h2 class="card-header">Too be added</h2>
-          <div class="card-body">
-            <p>Too be added</p>
-          </div>
-          Too be added
-        </figure>
-      </div>
-      <div class="card-column">
-        <figure class="card code-card">
-          <h2 class="card-header">Too be added</h2>
-          <div class="card-body">
-            <p>Too be added</p>
-          </div>
-          Too be added
-        </figure>
-      </div>
-      <div class="card-column">
-        <figure class="card code-card">
-          <h2 class="card-header">Too be added</h2>
-          <div class="card-body">
-            <p>Too be added</p>
-          </div>
-          Too be added
-        </figure>
-      </div>
+  <section id="contact">
+    <div>
+      <h2>Contact</h2>
+      <p></p>
+      <a href="https://github.com/gavinrn">
+        <img src="https://img.shields.io/badge/GitHub-gavinrn-181717?logo=github" alt="GitHub">
+      </a>
+      <a href="mailto:gavinmcnutt1@gmail.com">
+        <!-- <img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_2x.png" alt="Gmail Logo" width="70" height="auto"> -->
+        <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail Logo">
+      </a>
+      <a href="https://twitter.com/2gavin_">
+        <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white">
+      </a>
+      <a href="https://stackoverflow.com/users/11425310/gavin">
+        <img src="https://img.shields.io/badge/Stack%20Overflow-FE7A16?style=flat-square&logo=stackoverflow&logoColor=white">
+      </a>
+      <a href="https://www.linkedin.com/in/gavin-mcnutt-8337b9212/">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white">
 
-      <div class="card-column">
-        <figure class="card code-card">
-          <h2 class="card-header">Too be added</h2>
-          <div class="card-body">
-            <p>Too be added
-            </p>
-          </div>
-          Too be added
-        </figure>
-      </div>
-    </section>
-  </main>
+
+
+
+
+
+    </div>
+  </section>
 
   <footer>
-    <h3>Contact Me! github.com/gavinrn </h3>
-  </footer>
+    <p>© [2023] [Gavin McNutt]. All rights reserved.</p>
 
+  </footer>
 </body>
 
 </html>
